@@ -1,11 +1,13 @@
 import React, { useState, Fragment } from "react";
 import EditUserForm from "./forms/EditUserForm";
-import AddUserForm from "./forms/AddUserForm";
-import UserTable from "./table/UserTable";
 
+import AddUserForm from "./forms/AddUserForm";
+
+import UserTable from "./table/UserTable";
+//
 const App = () => {
     const usersData = [
-        { id: 1, username: "da222", name: "sfsffsf" },
+        { id: 1, username: "da2111", name: "sfsffsf" },
         { id: 2, username: "ss222", name: "sfsffsf" }
     ];
     const initialFormState = { id: null, username: "", name: "" };
