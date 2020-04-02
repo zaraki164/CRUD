@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 
 const AddUserForm = props => {
+
     const initialFormState = { id: null, username: "", name: "" };
 
     const [user, setUser] = useState(initialFormState);
 
     const handleInputChange = event => {
+
         const { name, value } = event.target;
         setUser({ ...user, [name]: value });
+
     };
 
     return (
