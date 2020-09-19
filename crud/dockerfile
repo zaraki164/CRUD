@@ -10,5 +10,5 @@ RUN npm install --silent
 
 ADD . /usr/src/app/
 
-EXPOSE 433
+EXPOSE 422
 CMD [ "npm", "start" ]
